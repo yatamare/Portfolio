@@ -87,40 +87,46 @@ function UsersAll() {
 						</NavLink>
 					</Grid>
 					<Grid item xs={6} sm={6}>
-						<ButtonBase className={classes.card}>
-							<Paper className={classes.paper}>
-								<div className={classes.polaroid}>
-									<SlideshowDev />
-								</div>
-								<Typography variant="body1" color="textSecondary" style={{ fontFamily: "Neuton" }}>
-									Development
+						<NavLink to="/Dev">
+							<ButtonBase className={classes.card}>
+								<Paper className={classes.paper}>
+									<div className={classes.polaroid}>
+										<SlideshowDev />
+									</div>
+									<Typography variant="body1" color="textSecondary" style={{ fontFamily: "Neuton" }}>
+										Development
 								</Typography>
-							</Paper>
-						</ButtonBase>
+								</Paper>
+							</ButtonBase>
+						</NavLink>
 					</Grid>
 					<Grid item xs={6} sm={6}>
-						<ButtonBase className={classes.card}>
-							<Paper className={classes.paper}>
-								<div className={classes.polaroid}>
-									<SlideshowMan />
-								</div>
-								<Typography variant="body1" color="textSecondary" style={{ fontFamily: "Neuton" }}>
-									Management
+						<NavLink to="/Management">
+							<ButtonBase className={classes.card}>
+								<Paper className={classes.paper}>
+									<div className={classes.polaroid}>
+										<SlideshowMan />
+									</div>
+									<Typography variant="body1" color="textSecondary" style={{ fontFamily: "Neuton" }}>
+										Management
 								</Typography>
-							</Paper>
-						</ButtonBase>
+								</Paper>
+							</ButtonBase>
+						</NavLink>
 					</Grid>
 					<Grid item xs={6} sm={6}>
-						<ButtonBase className={classes.card}>
-							<Paper className={classes.paper}>
-								<div className={classes.polaroid}>
-									<SlideshowArt />
-								</div>
-								<Typography variant="body1" color="textSecondary" style={{ fontFamily: "Neuton" }}>
-									Art
+						<NavLink to="/Art">
+							<ButtonBase className={classes.card}>
+								<Paper className={classes.paper}>
+									<div className={classes.polaroid}>
+										<SlideshowArt />
+									</div>
+									<Typography variant="body1" color="textSecondary" style={{ fontFamily: "Neuton" }}>
+										Art
 								</Typography>
-							</Paper>
-						</ButtonBase>
+								</Paper>
+							</ButtonBase>
+						</NavLink>
 					</Grid>
 				</Grid>
 			</div>

@@ -72,7 +72,7 @@ function App() {
 	const classes = useStyles();
 	return (
 		<div className={classes.root}>
-			<Router basename="">
+			<Router basename="/Portfolio">
 				<ScrollTop />
 				<AppBar position="sticky" className={classes.appbar}>
 					<Toolbar>
@@ -109,7 +109,7 @@ function App() {
 						<Route exact path="/Games" component={Games} />
 						<Route exact path="/Dev" component={Computers} />
 						<Route exact path="/Management" component={Management} />
-						<Route exact path="/art" component={Art} />
+						<Route exact path="/Art" component={Art} />
 					</Switch>
 				</div>
 			</Router>
