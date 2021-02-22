@@ -72,7 +72,7 @@ function App() {
 	const classes = useStyles();
 	return (
 		<div className={classes.root}>
-			<Router basename="/Portfolio">
+			<Router basename="/portfolio">
 				<ScrollTop />
 				<AppBar position="sticky" className={classes.appbar}>
 					<Toolbar>
@@ -88,16 +88,16 @@ function App() {
 							</Grid>
 							<Grid item xs={12} sm={6} className={classes.grid} container>
 								<Typography variant="h5" className={classes.center} style={{ fontFamily: "Neuton" }}>
-									<NavLink to="/Games" activeStyle={{ color: "#F17a7e" }} className={classes.link}>Games</NavLink>
+									<NavLink to="/games" activeStyle={{ color: "#F17a7e" }} className={classes.link}>Games</NavLink>
 								</Typography>
 								<Typography variant="h5" className={classes.center} style={{ fontFamily: "Neuton" }}>
-									<NavLink to="/Dev" activeStyle={{ color: "#F17a7e" }} className={classes.link}>Dev</NavLink>
+									<NavLink to="/dev" activeStyle={{ color: "#F17a7e" }} className={classes.link}>Dev</NavLink>
 								</Typography>
 								<Typography variant="h5" className={classes.center} style={{ fontFamily: "Neuton" }}>
-									<NavLink to="/Management" activeStyle={{ color: "#F17a7e" }} className={classes.link}>Management</NavLink>
+									<NavLink to="/management" activeStyle={{ color: "#F17a7e" }} className={classes.link}>Management</NavLink>
 								</Typography>
 								<Typography variant="h5" className={classes.center} style={{ fontFamily: "Neuton" }}>
-									<NavLink to="/Art" activeStyle={{ color: "#F17a7e" }} className={classes.link}>Art</NavLink>
+									<NavLink to="/art" activeStyle={{ color: "#F17a7e" }} className={classes.link}>Art</NavLink>
 								</Typography>
 							</Grid>
 						</Grid>
@@ -106,10 +106,10 @@ function App() {
 				<div>
 					<Switch>
 						<Route exact path="/" component={Homepage} />
-						<Route exact path="/Games" component={Games} />
-						<Route exact path="/Dev" component={Computers} />
-						<Route exact path="/Management" component={Management} />
-						<Route exact path="/Art" component={Art} />
+						<Route exact path="/games" component={Games} />
+						<Route exact path="/dev" component={Computers} />
+						<Route exact path="/management" component={Management} />
+						<Route exact path="/art" component={Art} />
 					</Switch>
 				</div>
 			</Router>

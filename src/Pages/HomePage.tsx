@@ -73,7 +73,7 @@ function UsersAll() {
 			<div className={classes.pages}>
 				<Grid container className={classes.grid} spacing={1}>
 					<Grid item xs={6} sm={6}>
-						<NavLink to="/Games">
+						<NavLink to="/games">
 							<ButtonBase className={classes.card}>
 								<Paper className={classes.paper}>
 									<div className={classes.polaroid}>
@@ -87,7 +87,7 @@ function UsersAll() {
 						</NavLink>
 					</Grid>
 					<Grid item xs={6} sm={6}>
-						<NavLink to="/Dev">
+						<NavLink to="/dev">
 							<ButtonBase className={classes.card}>
 								<Paper className={classes.paper}>
 									<div className={classes.polaroid}>
@@ -101,7 +101,7 @@ function UsersAll() {
 						</NavLink>
 					</Grid>
 					<Grid item xs={6} sm={6}>
-						<NavLink to="/Management">
+						<NavLink to="/management">
 							<ButtonBase className={classes.card}>
 								<Paper className={classes.paper}>
 									<div className={classes.polaroid}>
@@ -115,7 +115,7 @@ function UsersAll() {
 						</NavLink>
 					</Grid>
 					<Grid item xs={6} sm={6}>
-						<NavLink to="/Art">
+						<NavLink to="/art">
 							<ButtonBase className={classes.card}>
 								<Paper className={classes.paper}>
 									<div className={classes.polaroid}>
