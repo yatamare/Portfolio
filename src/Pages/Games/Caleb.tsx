@@ -81,7 +81,7 @@ function CalebInfo() {
 									</Typography>
 									<p> </p>
 									<Typography variant="body2" gutterBottom className={classes.description}>
-										Caleb's Pit is rogue-like game that features monster an evolving field of play in
+										Caleb's Pit is rogue-like game that features an evolving field of play in
 										which after a monster is slain it drops a cooresponding environmental terrain that
 										changes the shape of the field of play. Each environment terrain type effects
 										the surronding area's environment terrains when dropped. Alongisde varying power-ups
