@@ -1,4 +1,4 @@
-How to view on your own computer
+How to view (other then visiting yatamare.github.io/Portfolio):
 
 ## Available Scripts
 
