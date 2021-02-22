@@ -7,7 +7,7 @@ import Contact from './contact';
 import Portfolio from './Jobs/Portfolio';
 
 // CSS & Material UI
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 
 ////////////////////////////////////////////
 // Styles

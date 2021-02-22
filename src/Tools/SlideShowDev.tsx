@@ -46,13 +46,13 @@ function Slideshow() {
 		<div className={classes.imageContainer}>
 			<Fade arrows={false}>
 				<div>
-					<img className={classes.image} src={fourm} />
+					<img className={classes.image} alt="4M Aerial" src={fourm} />
 				</div>
 				<div>
-					<img className={classes.specialImage} src={pycode} />
+					<img className={classes.specialImage} alt="Py Code" src={pycode} />
 				</div>
 				<div>
-					<img className={classes.image} src={hyper} />
+					<img className={classes.image} alt="Hyperstone" src={hyper} />
 				</div>
 			</Fade>
 		</div>

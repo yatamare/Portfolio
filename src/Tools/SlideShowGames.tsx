@@ -42,13 +42,13 @@ function Slideshow() {
 		<div className={classes.imageContainer}>
 			<Fade arrows={false}>
 				<div className={classes.imageCenter}>
-					<img className={classes.image} src={Sol} />
+					<img className={classes.image} alt="Sol" src={Sol} />
 				</div>
 				<div>
-					<img className={classes.image} src={Dota} />
+					<img className={classes.image} alt="Dota UI" src={Dota} />
 				</div>
 				<div>
-					<img className={classes.image} src={Caleb} />
+					<img className={classes.image} alt="Caleb's Pit" src={Caleb} />
 				</div>
 			</Fade>
 		</div>

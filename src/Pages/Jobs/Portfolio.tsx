@@ -10,9 +10,9 @@ import Hyperstone from '../../Pictures/hyperstone.png';
 import Pycode from '../../Pictures/pycode.png';
 
 // CSS & Material UI
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Grid, { GridSpacing } from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
@@ -74,7 +74,7 @@ function WebsiteInfo() {
 					<Grid container spacing={2}>
 						<Grid item xs={12} sm={6}>
 							<ButtonBase className={classes.image}>
-								<img className={classes.img} alt="complex" src={Oldport} />
+								<img className={classes.img} alt="Old Website" src={Oldport} />
 							</ButtonBase>
 						</Grid>
 						<Grid item xs={12} sm={6} container>

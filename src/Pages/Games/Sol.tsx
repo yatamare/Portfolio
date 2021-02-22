@@ -10,9 +10,9 @@ import SolGame from '../../Pictures/SolGame.png';
 import SolHouse from '../../Pictures/SolHouse.png';
 
 // CSS & Material UI
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Grid, { GridSpacing } from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
@@ -74,7 +74,7 @@ function SolInfo() {
 					<Grid container spacing={2}>
 						<Grid item xs={12} sm={6}>
 							<ButtonBase className={classes.image}>
-								<img className={classes.img} alt="complex" src={SolTown} />
+								<img className={classes.img} alt="Sol Buildings" src={SolTown} />
 							</ButtonBase>
 						</Grid>
 						<Grid item xs={12} sm={6} container>
@@ -107,12 +107,12 @@ function SolInfo() {
 						</Grid>
 						<Grid item xs={12} sm={6}>
 							<ButtonBase className={classes.image}>
-								<img className={classes.img} alt="complex" src={SolGame} />
+								<img className={classes.img} alt="Sol Game" src={SolGame} />
 							</ButtonBase>
 						</Grid>
 						<Grid item xs={12} sm={6}>
 							<ButtonBase className={classes.image}>
-								<img className={classes.img} alt="complex" src={SolHouse} />
+								<img className={classes.img} alt="Sol 3D House" src={SolHouse} />
 							</ButtonBase>
 						</Grid>
 					</Grid>

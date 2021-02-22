@@ -5,7 +5,7 @@ import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 // Styling
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 
 // Images
 import flowers from '../Pictures/Slideshow/Flowers.png';
@@ -46,13 +46,13 @@ function Slideshow() {
 		<div className={classes.imageContainer}>
 			<Fade arrows={false}>
 				<div>
-					<img className={classes.image} src={flowers} />
+					<img className={classes.image} alt="Flower art" src={flowers} />
 				</div>
 				<div>
-					<img className={classes.image} src={cali} />
+					<img className={classes.image} alt="Cali drawing" src={cali} />
 				</div>
 				<div>
-					<img className={classes.image} src={star} />
+					<img className={classes.image} alt="star explorer" src={star} />
 				</div>
 			</Fade>
 		</div>

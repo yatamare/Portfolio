@@ -8,9 +8,9 @@ import '../../Fonts.css';
 import FourM from '../../Pictures/4m3.png';
 
 // CSS & Material UI
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Grid, { GridSpacing } from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
@@ -72,7 +72,7 @@ function UptownInfo() {
 					<Grid container spacing={2}>
 						<Grid item xs={12} sm={6}>
 							<ButtonBase className={classes.image}>
-								<img className={classes.img} alt="complex" src={FourM} />
+								<img className={classes.img} alt="4M" src={FourM} />
 							</ButtonBase>
 						</Grid>
 						<Grid item xs={12} sm={6} container>

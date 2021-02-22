@@ -5,13 +5,12 @@ import React from 'react';
 import '../../Fonts.css';
 
 // Pictures
-import UptownLogo from '../../Pictures/Uptownlogo.png';
 import UptownWebsite from '../../Pictures/Uptownwebsite.png';
 
 // CSS & Material UI
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Grid, { GridSpacing } from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 

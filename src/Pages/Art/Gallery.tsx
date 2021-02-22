@@ -9,9 +9,9 @@ import Connection from '../../Pictures/Art/Upsidedown.png';
 import Light from '../../Pictures/Art/Light.png';
 
 // CSS & Material UI
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Grid, { GridSpacing } from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
@@ -73,12 +73,12 @@ function GalleryInfo() {
 					<Grid container spacing={2}>
 						<Grid item xs={12} sm={3}>
 							<ButtonBase className={classes.image}>
-								<img className={classes.img} alt="complex" src={Connection} />
+								<img className={classes.img} alt="Connection" src={Connection} />
 							</ButtonBase>
 						</Grid>
 						<Grid item xs={12} sm={3}>
 							<ButtonBase className={classes.image}>
-								<img className={classes.img} alt="complex" src={Light} />
+								<img className={classes.img} alt="Guiding Light" src={Light} />
 							</ButtonBase>
 						</Grid>
 						<Grid item xs={12} sm={6} container>

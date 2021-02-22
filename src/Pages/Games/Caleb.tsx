@@ -8,9 +8,9 @@ import '../../Fonts.css';
 import Pit from '../../Pictures/pit2.png';
 
 // CSS & Material UI
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Grid, { GridSpacing } from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
@@ -98,7 +98,7 @@ function CalebInfo() {
 						</Grid>
 						<Grid item xs={12} sm={6}>
 							<ButtonBase className={classes.image}>
-								<img className={classes.img} alt="complex" src={Pit} />
+								<img className={classes.img} alt="Caleb's Pit" src={Pit} />
 							</ButtonBase>
 						</Grid>
 					</Grid>

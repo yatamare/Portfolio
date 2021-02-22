@@ -5,7 +5,7 @@ import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 // Styling
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 
 // Images
 import uptown from '../Pictures/Slideshow/Uptownwebsite.png';
@@ -45,10 +45,10 @@ function Slideshow() {
 		<div className={classes.imageContainer}>
 			<Fade arrows={false}>
 				<div>
-					<img className={classes.image} src={uptown} />
+					<img className={classes.image} alt="Uptown" src={uptown} />
 				</div>
 				<div>
-					<img className={classes.image} src={fourm} />
+					<img className={classes.image} alt="4M Management" src={fourm} />
 				</div>
 			</Fade>
 		</div>

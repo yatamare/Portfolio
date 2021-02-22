@@ -9,7 +9,7 @@ import Contact from './contact'
 // Pages
 
 // CSS & Material UI
-import { createMuiTheme, makeStyles, createStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 
 ////////////////////////////////////////////
 // Styles

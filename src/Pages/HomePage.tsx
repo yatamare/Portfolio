@@ -1,6 +1,6 @@
 // Base
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 // Pages
 import Uptown from './Jobs/Uptown';
@@ -16,7 +16,7 @@ import SlideshowArt from '../Tools/SlideShowArt';
 // CSS & Material UI
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Grid, { GridSpacing } from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 
