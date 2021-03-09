@@ -92,7 +92,7 @@ function SolInfo() {
 										The game had an array of features: town rebuilding, farming, crafting, harvesting,
 										exploration, and combat. I worked as the primary developer for the inventory system
 										and all interactions involving an item. This included: UI design, harvesting, farming,
-										looting, crafting, equipment, resources, item balancing and town rebuilding.
+										looting, crafting, equipment, resources, and town rebuilding.
 										This project gave me experience working in a medium sized team and using the Agile
 										software development process. Programmed within the Unity Engine using C# and was
 										builted within a 10 person team.

@@ -87,10 +87,10 @@ function DotaInfo() {
 									<p> </p>
 									<Typography variant="body2" gutterBottom className={classes.description}>
 										Our team's goal for the Dota UI Enhancer was to add additional features to make
-										character selection in MOBA games a more socially positive experience and to
-										redesign the interface to include new tools. The redesigned interface gives players the ability to communicate
-										strategies at an abstracted level meant to reduce toxic behavior and overcome
-										language barriers. This design process required extensive user testing and multiple
+										character selection in MOBA games a more socially positive experience which required
+										us to redesign the interface to include the new tools. The redesigned interface gives
+										players the ability to communicate strategies at an abstracted level meant to reduce
+										toxic behavior and overcome language barriers. This design process required extensive user testing and multiple
 										prototypes of both low and medium fidelity.
 									</Typography>
 								</Grid>

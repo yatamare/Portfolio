@@ -82,16 +82,16 @@ function CalebInfo() {
 									<p> </p>
 									<Typography variant="body2" gutterBottom className={classes.description}>
 										Caleb's Pit is rogue-like game that features an evolving field of play in
-										which after a monster is slain it drops a cooresponding environmental terrain that
-										changes the shape of the field of play. Each environment terrain type effects
-										the surronding area's environment terrains when dropped. Alongisde varying power-ups
+										which after a monster is slain it drops a corresponding environmental terrain that
+										changes the shape of the field of play. Each terrain type effects
+										the surronding area's terrains when dropped. Alongisde varying power-ups
 										and potions its provided a unique play experience every time.
 									</Typography>
 									<Typography variant="body2" gutterBottom className={classes.description}>
 										The project's technical strength was a fully functioning AI pathing system which
-										could dynamically evaluate an consitantly changing map with each elemental type
-										of AI having its on unique movement parameters. The AI was light weight enough to
-										have several hundred paths being calculated within each frame.
+										could dynamically evaluate a consitantly changing map. Each elemental type
+										of AI has its owm unique movement parameters while being light weight enough to
+										have several hundred AI pathing within each frame.
 									</Typography>
 								</Grid>
 							</Grid>
