@@ -56,6 +56,9 @@ const useStyles = makeStyles((theme: Theme) =>
 		},
 		pagealt: {
 			marginTop: '10px',
+			marginLeft: "auto",
+			marginRight: "auto",
+			width: "99%",
 		},
 		slideshow: {
 			margintop: '10px',

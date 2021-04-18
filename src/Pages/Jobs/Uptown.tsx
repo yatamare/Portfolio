@@ -89,7 +89,7 @@ function UptownInfo() {
 										Uptown is a luxury real estate lead distribution company that generates
 										hundreds of leads across 50+ states. I worked as the Project Manager for
 										this project until its sale in February 2021. My responsibilities included
-										managing contact programmers for micro-site creations, and setting up SMTP
+										managing contract programmers for micro-site creations, and setting up SMTP
 										relays, VoIP2, phone campaign management, client setup, and much more.
 									</Typography>
 									<Typography variant="body2" color="textSecondary" className={classes.description}>
